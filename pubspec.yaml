@@ -1,0 +1,27 @@
+name: saksi_warung
+description: Sistem Pencatatan Inventaris, Makro Transaksi, dan SPK Luring Warung.
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.11.4
+
+dependencies:
+  flutter:
+    sdk: flutter
+  crypto: ^3.0.7
+  encrypt: ^5.0.3
+  flutter_secure_storage: ^11.2.0
+  path: ^1.9.1
+  path_provider: ^2.1.6
+  sqflite: ^2.4.2+1
+  uuid: ^4.5.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/icon/
